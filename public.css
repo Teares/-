@@ -1,6 +1,6 @@
 html,
 body {
-  /* 定义宽高，方便后续其他css样式 */
+  /* 定义宽高，方便后续设计其他css样式 */
   width: 100%;
   height: 100%;
   /* 抗锯齿渲染 */
@@ -32,7 +32,7 @@ img {
 }
 
 button {
-  /* 鼠标经过按钮变箭头 */
+  /* 鼠标经过按钮变箭头,不需要可以删掉 */
   cursor: pointer;
 }
 
@@ -45,6 +45,7 @@ button {
   height: 0;
 }
 
+/* 清除浮动 */
 .clearfix {
   *zoom: 1;
 }
